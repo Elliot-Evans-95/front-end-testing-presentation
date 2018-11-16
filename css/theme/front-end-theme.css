@@ -1,4 +1,7 @@
 /*********************************************
+* VARIABLES
+*********************************************/
+/*********************************************
 * FONT
 *********************************************/
 @font-face {
@@ -22,7 +25,6 @@ body {
 
 .reveal {
   background: #D8D8D8;
-  background-color: #D8D8D8;
   color: #000000;
   font-size: 1.25rem;
   font-family: "Lato", sans-serif; }
@@ -200,20 +202,20 @@ body {
   * LINKS
   *********************************************/
 .reveal a {
-  color: #6CA8ED;
+  color: #e84238;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #6da9ed;
+  color: #e84339;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #6da9ed; }
+  background: #e84339; }
 
 /*********************************************
   * IMAGES
@@ -235,21 +237,21 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #6CA8ED;
+  border-color: #e84238;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
   * NAVIGATION CONTROLS
   *********************************************/
 .reveal .controls {
-  color: #6CA8ED; }
+  color: #e84238; }
 
 /*********************************************
   * PROGRESS BAR
   *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #6CA8ED; }
+  color: #e84238; }
 
 .reveal .progress span {
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -258,71 +260,24 @@ body {
 * CUSTOM STYLES
 *********************************************/
 .bullet-point-color {
-  color: #6CA8ED; }
+  color: #e84238; }
 
 .text-color {
   color: #333; }
 
 .border-top {
-  background: #6CA8ED;
+  background: #e84238;
   position: absolute;
   left: 0;
   height: 1em;
   width: 100%;
   box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.15); }
 
-.red-border-top__img {
-  display: block;
-  padding: 0.25em 1em !important;
-  max-width: 50% !important;
-  max-height: 50% !important; }
-
-.about-me {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.history {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.past-table {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.past-floats {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.future-grid {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 80%;
-  margin: auto; }
-
-.future-hudini {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.pre-processor {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.reveal tbody {
-  border: 1px solid black; }
+.cw-logo {
+  width: 300px;
+  height: auto; }
+  .cw-logo path, .cw-logo polygon {
+    fill: #e84238; }
 
 /*********************************************
 * UTILITIES
@@ -347,6 +302,3 @@ body {
 
 .reveal .flex-50 {
   flex: 1 0 50%; }
-
-.reveal .slides section .fragment.fade-out.visible {
-  display: none; }

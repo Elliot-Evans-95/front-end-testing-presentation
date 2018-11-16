@@ -2,7 +2,7 @@
 * VARIABLES
 *********************************************/
 
-$primary: #ed3c3b;
+$primary: #e84238;
 $secondary: #D8D8D8;
 $white: #FFF;
 $text: #333;
@@ -345,6 +345,15 @@ body {
     height: 1em;
     width: 100%;
     box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.15);
+}
+
+.cw-logo {
+  width: 300px;
+  height: auto;
+
+  path, polygon {
+    fill: $primary;
+  }
 }
 
 /*********************************************

@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 
-		<link rel="stylesheet" href="css/theme/css-is-dead-theme.css">
+		<link rel="stylesheet" href="css/theme/front-end-theme.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -43,9 +43,10 @@
 
                     <div class="content">
                         <ul>
-                            <li>What is unit testing</li>
-                            <li>Why do we unit test</li>
+                            <li>Why should you test your code?</li>
                             <li>Testing Pyramid</li>
+                            <li>What to test and what not to test</li>
+                            <li>Live coding examples 👨🏻‍💻</li>
                             <li>Testing Strategy at Codeweavers</li>
                         </ul>
                     </div>
@@ -54,30 +55,14 @@
 
 					<!-- NOTES -->
 					<aside class="notes">
-                        Will break into a live showcase after testing strategies
+                        After all live code examples are done, move onto testing strategies
 					</aside>
 				</section>
 
-                <!-- What is unit testing -->
+                <!-- Why should you test your code -->
                 <section>
                     <header>
-                        <h1>What is unit testing?</h1>
-                    </header>
-
-                    <div class="content"></div>
-
-                    <footer></footer>
-
-                    <!-- NOTES -->
-                    <aside class="notes">
-                        Tests that method of function of that code.
-                    </aside>
-                </section>
-
-                <!-- Why do we unit test -->
-                <section>
-                    <header>
-                        <h1>Why do we unit test?</h1>
+                        <h1>Why should you test your code?</h1>
                     </header>
 
                     <div class="content"></div>
@@ -97,21 +82,23 @@
                         <h1>Testing Pyramid</h1>
                     </header>
 
-                    <div class="content"></div>
+                    <div class="content">
+                        <img src="/images/testing-pyramid.png" alt="testing-pyramid">
+                    </div>
 
                     <footer></footer>
 
                     <!-- NOTES -->
                     <aside class="notes">
                         Get testing pyramid and explain each part of it.
-                        Why integration tests give me value to the bisnuess and also why they are so little of them.
+                        Why integration tests give me value to the business and also why they are so little of them.
                     </aside>
                 </section>
 
-                <!-- Testing Strategy at Codeweavers -->
+                <!-- What to test and what not to test -->
                 <section>
                     <header>
-                        <h1>Testing Strategy at Codeweavers</h1>
+                        <h1>What to test and what not to test</h1>
                     </header>
 
                     <div class="content"></div>
@@ -120,10 +107,7 @@
 
                     <!-- NOTES -->
                     <aside class="notes">
-                        BDD
-                        TDD
-                        Component Tests
-                        Unit Tests
+                        talk about repository code and also framework code and why you should not test them.
                     </aside>
                 </section>
 
@@ -138,10 +122,63 @@
                     <footer></footer>
 
                     <!-- NOTES -->
+                    <aside class="notes"></aside>
+                </section>
+
+                <!-- Testing Strategy at Codeweavers -->
+                <section>
+                    <header>
+
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" class="cw-logo" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="315 -140.5 1226.1 1121.4" enable-background="new 315 -140.5 1226.1 1121.4" xml:space="preserve">
+                        <g>
+                            <g>
+                                <polygon fill="#FFFFFF" points="1061.4,71.2 1061,71.2 987.8,196.4 1042.2,290.8 988.4,384.6 1061.8,510.3 1189.5,291.1 		"/>
+                                <polygon fill="#FFFFFF" points="805.5,71.2 805.3,71.2 677.3,291 804.8,510.4 878.3,384.2 824.7,290.7 878.9,196.7 		"/>
+                            </g>
+                            <path fill="#FFFFFF" d="M409,656c-53.4,0-53.4,83.7,0,83.7c13.4,0,21.6-3.5,26.8-6.1l3.5,28.4c-8.4,3.5-19.2,5.8-30.3,5.8
+                                c-93.5,0-91.2-139.4,0-139.4c11.1,0,19.1,1.7,27.4,5.4l-3.4,28.2C427.7,659.2,422.3,656,409,656z"/>
+                            <path fill="#FFFFFF" d="M513.5,627.7c95.7,0,95.7,141.5,0,141.5C420.1,769.2,420.1,627.7,513.5,627.7z M513.5,656
+                                c-53.4,0-53.4,84.9,0,84.9C569.2,740.8,569.2,656,513.5,656z"/>
+                            <path fill="#FFFFFF" d="M635.9,767.6h-42.3v-138h42.3C727.1,629.7,727.1,767.6,635.9,767.6z M622.6,658.6v82.3h13.4
+                                c53.4,0,53.4-82.3,0-82.3H622.6z"/>
+                            <path fill="#FFFFFF" d="M713.8,767.6v-138h69v28.9h-42.3v26.7h37.8V712h-37.8v28.9H785v26.7H713.8z"/>
+                            <path fill="#FFFFFF" d="M846.1,769.9l-56.3-140.2h30.9l27.6,70.5l26.9-68.3h1.3l26.9,68.3l27.6-70.5h30.9L906,769.9h-5l-25.2-61.1
+                                l-25,61.1H846.1z"/>
+                            <path fill="#FFFFFF" d="M971.9,767.6v-138h69v28.9h-42.3v26.7h37.8V712h-37.8v28.9h44.5v26.7H971.9z"/>
+                            <path fill="#FFFFFF" d="M1186.8,765.4L1130,629.7h31.7l18.2,45.9l10,28.5l9.8-27.6l18.4-46.8h31.7l-56.8,135.7H1186.8z"/>
+                            <path fill="#FFFFFF" d="M1258.9,767.6v-138h69v28.9h-42.3v26.7h37.8V712h-37.8v28.9h44.5v26.7H1258.9z"/>
+                            <path fill="#FFFFFF" d="M1405.7,767.6l-27.6-53.4h-12.3v53.4h-28.9v-138h54.7c49,0,53.8,69.3,13.4,81l31.9,57H1405.7z
+                                 M1365.7,687.5h22.3c20,0,20-28.9,0-28.9h-22.3V687.5z"/>
+                            <path fill="#FFFFFF" d="M1445.6,729.7c15.7,11.1,32.8,11.5,39.2,10.9c8.1-0.6,15-6.3,14.2-13.8c-0.6-7.9-6.5-11.3-14.2-14
+                                c-21.5-7.9-40.7-18.8-40.7-41.9s15.9-40.7,38.8-41.9c7.1-0.4,16.5-0.4,34.2,5.8l-3.5,26.5c-15.2-6.1-23.8-6-28-5.8
+                                c-9.8,0.6-14.2,7.7-13.6,15.4c0.8,7.7,7.5,11.1,15.4,13.8c21.3,7.9,39.7,20.2,39.7,42c0,22.8-15.7,40.3-41.5,41.7
+                                c-7.7,0.6-24.8-0.4-43.4-10L1445.6,729.7z"/>
+                            <g>
+                                <polygon fill="#FFFFFF" points="1109.5,691.1 1109.3,691.7 1109.6,691.2 		"/>
+                                <polygon fill="#FFFFFF" points="1110.9,629.7 1108,629.7 1050.2,767.6 1081.3,767.6 1086.7,752.1 1105.4,752.1 1105.4,729.8
+                                    1092.6,729.8 1109.3,690.8 1109.5,690.7 1109.6,690.9 1109.6,690.1 1126.3,729.8 1114.3,729.8 1114.3,752.1 1132.2,752.1
+                                    1137.8,767.6 1168.7,767.6 		"/>
+                            </g>
+                        </g>
+                        </svg>
+
+                        <h1>Testing Strategy at Codeweavers</h1>
+                    </header>
+
+                    <div class="content"></div>
+
+                    <footer></footer>
+
+                    <!-- NOTES -->
                     <aside class="notes">
-                        Node Example - Mocha / Node (Node)
-                        Angular Example - Karma / Jasmine (Chrome)
-                        React Example - Jest (JSDom)
+                        BDD
+                        TDD
+                        Component Tests
+                        Integration Tests
+                        E2E tests Tests
+                        Unit Tests
                     </aside>
                 </section>
 
